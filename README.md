@@ -60,3 +60,4 @@ Join our community of developers creating universal apps.
 1. npx create-expo-app todo-app
 2. cd todo-app
 3. npm start
+4. npx expo install @react-native-async-storage/async-storage
