@@ -60,3 +60,11 @@ Join our community of developers creating universal apps.
 1. npx create-expo-app todo-app
 2. cd todo-app
 3. npm start
+4. npx expo install @react-native-async-storage/async-storage
+
+# For build APK :
+
+1. npm install -g eas-cli
+2. eas login
+3. eas build:configure
+4. eas build -p android --profile preview
